@@ -1,6 +1,6 @@
 <svg width="496" height="312" viewBox="0 0 496 312" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="495" height="311" rx="23.5" stroke="#EDF2F7"/>
-<g filter="url(#filter0_in_3797_24382)">
+<g filter="url(#filter0_i_3797_24382)">
 <g clip-path="url(#clip0_3797_24382)">
 <rect x="12" y="12" width="472" height="288" rx="16" fill="url(#paint0_linear_3797_24382)"/>
 <path d="M89.8029 80.7217C95.2928 80.7217 100.887 82.767 105.889 85.8838C110.689 88.875 114.898 92.8288 117.895 96.8135L86.4259 128.287L54.9962 96.8574C55.2755 96.5759 55.6486 96.2106 56.0265 95.8447C56.4119 95.4715 56.799 95.1009 57.09 94.8232C57.2352 94.6846 57.3567 94.5689 57.4415 94.4883C57.4839 94.448 57.5175 94.4161 57.5402 94.3945C57.5515 94.3838 57.5607 94.3757 57.5665 94.3701L57.5743 94.3623H57.5753L57.5763 94.3613C65.2134 87.0972 75.2469 80.7217 89.8029 80.7217Z" stroke="white" stroke-opacity="0.15" stroke-width="1.44301"/>
@@ -26,7 +26,7 @@
 <path d="M181.613 134.029C177.198 134.029 174.155 135.966 171.852 138.157C171.852 138.157 171.002 139.015 170.964 139.065L159.008 151.022L168.666 160.68L190.277 139.065C188.446 136.544 184.994 134.029 181.613 134.029Z" fill="white"/>
 <path d="M205.563 134.029C201.148 134.029 198.105 135.966 195.802 138.157C195.802 138.157 194.917 139.021 194.883 139.065L170.967 162.985L173.499 165.516C177.415 169.433 183.826 169.433 187.742 165.516L214.197 139.065H214.227C212.396 136.544 208.944 134.029 205.563 134.029Z" fill="white"/>
 <defs>
-<filter id="filter0_in_3797_24382" x="12" y="12" width="474" height="290" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i_3797_24382" x="12" y="12" width="474" height="290" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -36,18 +36,6 @@
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.24 0"/>
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow_3797_24382"/>
-<feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="4456" />
-<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
-<feComponentTransfer in="alphaNoise" result="coloredNoise1">
-<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-</feComponentTransfer>
-<feComposite operator="in" in2="effect1_innerShadow_3797_24382" in="coloredNoise1" result="noise1Clipped" />
-<feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
-<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
-<feMerge result="effect2_noise_3797_24382">
-<feMergeNode in="effect1_innerShadow_3797_24382" />
-<feMergeNode in="color1" />
-</feMerge>
 </filter>
 <linearGradient id="paint0_linear_3797_24382" x1="248" y1="12" x2="248" y2="461.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FF6243"/>
